@@ -6,7 +6,7 @@ StableShift is an open-source, single-file web tool that helps users hedge BCH v
 
 Live price is fetched from the **General Protocols oracle relay** — the same cryptographically-signed feed used by [BCHBULL](https://bchbull.com) and the broader BCH DeFi ecosystem.
 
-→ Part of the [CashCompass](https://cashcompass.space) ecosystem.
+→ Part of the [CashCompass](https://cashcompass-bch.vercel.app) ecosystem.
 
 ---
 
@@ -57,7 +57,7 @@ The signed price message is a hex-encoded 8-byte sequence: the first 4 bytes are
 |---|---|---|
 | Protocol | Moria | ParyonUSD |
 | Min. collateral | 150% | 110% |
-| Oracle | General Protocols | General Protocols |
+| Oracle | D3lphi | General Protocols |
 | Audited | Hashlock ✓ | Yes ✓ |
 | Swap on DEX | Cauldron ✓ | Cauldron ✓ |
 
